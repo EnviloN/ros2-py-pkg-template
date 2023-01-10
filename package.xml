@@ -4,10 +4,12 @@
   <name>py_pkg_template</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="chudyja1@fit.cvut.cz">root</maintainer>
+  <maintainer email="todo@email.com">root</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
+  
+  <exec_depend>ros2launch</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

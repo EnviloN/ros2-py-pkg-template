@@ -4,7 +4,7 @@ from rclpy.node import Node
 
 
 class PyTemplateNode(Node):
-    """A template for a Python Node."""
+    """A template for a basic Python Node."""
     def __init__(self):
         super().__init__("dummy_py")
 
@@ -14,6 +14,7 @@ class PyTemplateNode(Node):
         self.create_timer(1, self.timer_callback)
     
     def timer_callback(self):
+        """Increments a counter and logs a message"""
         self._counter += 1
         self.get_logger().info(f"Hello ({self._counter})")
 
