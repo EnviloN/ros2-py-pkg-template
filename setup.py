@@ -26,6 +26,7 @@ setup(
             "dummy_py_node = py_pkg_template.py_node_template:main",
             "dummy_publisher_py_node = py_pkg_template.py_publisher_template:main",
             "dummy_subscriber_py_node = py_pkg_template.py_subscriber_template:main",
+            "dummy_parametrized_py_node = py_pkg_template.py_parametrized_template:main",
             "dummy_server_py_node = py_pkg_template.py_service_server_template:main",
             "dummy_client_py_node = py_pkg_template.py_service_client_template:main",
         ],
